@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文搜集与作者追踪"
+  short_description: "按主题优先通信、视觉、AI与系统顶会顶刊检索论文"
+  default_prompt: "Use $collect-papers to 按研究主题优先检索通信、计算机视觉、AI/机器学习或系统领域顶会顶刊，核验论文并按需导出精简 Excel。"
