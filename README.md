@@ -26,10 +26,10 @@ https://github.com/hfnjupt/collect-papers-skill
 ### 1. 按作者搜索
 
 ~~~text
-$collect-papers 搜索作者“Hengfa Liu，NJUPT”的所有论文，并整理成 Excel。
+$collect-papers 搜索作者“San Zhang，NUPT”的所有论文，并整理成 Excel。
 ~~~
 
-skill 会先把 Hengfa Liu 与南京邮电大学（NJUPT/NUPT/南京邮电大学等别名）作为身份线索，结合稳定作者 ID、论文时单位、合作者、研究主题和时间线进行消歧。对于“所有论文”，结果会说明检索来源、日期和覆盖边界，而不会在没有封闭数据库时声称绝对穷尽。
+skill 会先把 San Zhang 与南京邮电大学（NJUPT/NUPT/南京邮电大学等别名）作为身份线索，结合稳定作者 ID、论文时单位、合作者、研究主题和时间线进行消歧。对于“所有论文”，结果会说明检索来源、日期和覆盖边界，而不会在没有封闭数据库时声称绝对穷尽。
 
 ### 2. 按关键词搜索
 
@@ -54,7 +54,7 @@ $collect-papers 仅限 2023–2025 年 CVPR、ICCV、ECCV 和 WACV 中包含“v
 ### 4. 从一篇感兴趣的论文扩展作者
 
 ~~~text
-$collect-papers 以 DOI 10.xxxx/xxxx 为锚点，搜索其中 Hengfa Liu 的全部论文；只保留论文发表时单位为 NJUPT 的记录。
+$collect-papers 以 DOI 10.xxxx/xxxx 为锚点，搜索其中 San Zhang 的全部论文；只保留论文发表时单位为 NJUPT 的记录。
 ~~~
 
 这种模式会保留锚点论文、作者顺序、单位映射及身份关联证据，并将无法确证的同名记录单列。
